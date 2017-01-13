@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">VTUMCASyllabus</string>
+    <string-array name="semister1">
+      <item> subject1</item>
+    </string-array>
+    <string-array name="semister2">
+      <item> subject1.2</item>
+    </string-array>
+    <string-array name="semister3">
+      <item> subject1.3</item>
+    </string-array>
+    <string-array name="semister4">
+      <item> subject1.4</item>
+    </string-array>
+    <string-array name="semister5">
+      <item> subject1.5</item>
+    </string-array>
+    <string-array name="semister6">
+      <item> subject1.6</item>
+    </string-array>
+</resources>

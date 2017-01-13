@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="MyTheme.Base" parent="android:Theme">
+  </style>
+  <style name="MyTheme.Splash" parent ="android:Theme">
+    <item name="android:windowBackground">@drawable/splash</item>
+    <item name="android:windowNoTitle">true</item>
+  </style>
+  <style name="Theme.IAPTheme" parent ="android:Theme">
+    <item name="android:windowNoTitle">true</item>
+  </style>
+</resources>

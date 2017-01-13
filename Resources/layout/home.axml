@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout1">
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_marginTop="10dip">
+            <TextView
+                android:text="Semister"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="1"
+                android:id="@+id/text_semister" />
+            <Spinner
+                android:layout_column="2"
+                android:id="@+id/spinner1"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_marginTop="10dip">
+            <TextView
+                android:text="Subject"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="1"
+                android:id="@+id/text_subjects" />
+            <Spinner
+                android:layout_column="2"
+                android:id="@+id/spinner2"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_marginTop="10dip">
+            <Button
+                android:text="Syllabus"
+                android:layout_column="1"
+                android:id="@+id/btn_syllabus"
+                android:layout_weight="1" />
+            <Button
+                android:text="Notes"
+                android:layout_column="2"
+                android:id="@+id/btn_notes"
+                android:layout_weight="1"
+                android:layout_marginRight="10dip" />
+        </TableRow>
+    </TableLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout_adview" >
+    </LinearLayout>
+</LinearLayout>
